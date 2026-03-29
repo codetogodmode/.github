@@ -1,0 +1,23 @@
+name: Blocked / Help
+description: Zasekl ses a potřebuješ pomoc
+labels: ["blocked"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Na čem ses zasekl?
+      description: Popiš problém co nejpřesněji.
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: Co jsi zkusil?
+      description: Jaké kroky jsi už podnikl?
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Chybová hláška / screenshot
+      description: Vlož chybovou hlášku nebo screenshot.

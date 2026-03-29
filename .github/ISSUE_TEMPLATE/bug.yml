@@ -1,0 +1,23 @@
+name: Bug
+description: Něco nefunguje
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Co se stalo?
+      description: Popiš, co nefunguje.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Co mělo být?
+      description: Jak to mělo fungovat?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Jak to zopakovat?
+      description: Kroky k reprodukci problému.
