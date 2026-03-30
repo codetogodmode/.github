@@ -6,6 +6,10 @@
 
 <!-- Jak poznat, že to funguje? Testy, manuální ověření, screenshot... -->
 
+## Bezpečnost
+
+- [ ] Žádné secrets v kódu (API klíče, tokeny, hesla, connection stringy)
+
 ## AI disclosure
 
 - [ ] AI nebyla použita
